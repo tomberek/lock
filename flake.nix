@@ -1,8 +1,7 @@
 {
   description = "lock flake";
 
-  inputs.lockless.url = "git+file:./.?ref=master";
-  inputs.lockless.inputs.lock.follows = "/";
+  inputs.lockless.url = "git+file:./.?ref=master&dir=inputs";
 
   outputs = {...}: {
     value = 1;

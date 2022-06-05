@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "lockless": {
+      "inputs": {
+        "lock": [],
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1654392912,
+        "narHash": "sha256-+9x8/2XREkcBUxGz8Um6hcqC9cemwHutLiXJy4GnM2M=",
+        "ref": "master",
+        "rev": "fad2e6ba03bba36055c5d836110ca1d16df21eaf",
+        "revCount": 1,
+        "type": "git",
+        "url": "file:./."
+      },
+      "original": {
+        "ref": "master",
+        "type": "git",
+        "url": "file:./."
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1654389423,
+        "narHash": "sha256-nfWRZLYitwmY9zLC8Txhmfl6lpqWI8ka+zUYLIInUts=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f910bc55af53a0e7f5a8606be882f37eb514ac23",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "lockless": "lockless"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

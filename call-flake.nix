@@ -73,7 +73,7 @@ lockFileStr: rootSrc: rootSubdir: subflakeSubdir: subflakeKey: extras: overrides
             (builtins.tail path);
 
         outputs =
-          flake.outputs (extraInputs // inputs // {self = result; phase2=true;});
+          flake.outputs (extraInputs // inputs // {self = result;});
 
         result =
           outputs
